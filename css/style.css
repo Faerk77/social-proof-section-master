@@ -1,5 +1,5 @@
 *{
-    margin 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -26,10 +26,10 @@
     background-position: top, bottom;
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
     padding: 1rem;
-    margin-top: 3rem;
-    margin-bottom: 3.5rem;
+    margin: 3rem auto 3.5rem auto;
 }
 
 .header{
