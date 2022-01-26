@@ -78,10 +78,11 @@
     display: flex;
     max-width: 80%;
     margin:2rem 0;
+    align-items: center;
 }
 .comment__header-title{
     font-size: 0.9rem;
-    align-content: center;
+    /* align-items: center; */
     text-align: left;
     margin: 0 1.67rem;
     line-height: 20px;
@@ -89,8 +90,8 @@
 .comment__card-img{
     margin:auto 0;
     border-radius: 50%;
-    min-width: 20%;
-    max-width: 20%;
+    /* min-width: 20px; */
+    max-width: 45px;
     height: auto;
 }
 .comment__header-span{
@@ -116,7 +117,7 @@
             max-width: 100%;
             height: 100vh;
             /* position: relative; */
-            max-width: 1440px;
+            /* max-width: 1440px; */
             background-image: url(/assets/img/bg-pattern-top-desktop.svg),url(/assets/img/bg-pattern-bottom-desktop.svg);
             background-position: top left, bottom right;
             background-size: cover;
@@ -130,8 +131,8 @@
             /* padding: 5rem 8rem; */
         }
         .main{
-            width: 100%;
-            height: 100vh;
+            width: 80%;
+            height: 80vh;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
@@ -140,8 +141,8 @@
         }
         .header{
             position:absolute;
-            top: 10vh;
-            left: 10vw;
+            top: 15vh;
+            left: 15.3vw;
         }
         .comment{
             width: 100%;
@@ -151,13 +152,17 @@
             /* align-self: center; */
         }
         .comment__card{
-            margin: 0;
-            max-width: 32%;
+            margin: 2rem 0;
+            max-width: 31.67%;
             /* align-self: center; */
         }
-        .comment__card-text{
-            max-width: 85%;
-            margin: 0;
+        .comment__card--btm{
+            margin-top: auto;
+            margin-bottom: 0;
+        }
+        .comment__card--top{
+            margin-bottom: auto;
+            margin-top: 0;
         }
         .rate{
             flex-direction: column;
