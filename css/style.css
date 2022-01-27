@@ -100,7 +100,7 @@
     color: var(--Soft-Pink);
 }
 .comment__card-text{
-    line-height: 25px;
+    line-height: 27px;
     font-size: 0.89rem;
     text-align: left;
     margin: 1rem auto;
@@ -116,19 +116,16 @@
         .body{
             max-width: 100%;
             height: 100vh;
-            /* position: relative; */
-            /* max-width: 1440px; */
             background-image: url(/assets/img/bg-pattern-top-desktop.svg),url(/assets/img/bg-pattern-bottom-desktop.svg);
             background-position: top left, bottom right;
             background-size: cover;
-            background-position-x: 4%,0vh;
-            background-position-y: -50vh,9vh;
+            /* background-position-x: 4%,0vh; */
+            /* background-position-y: -50vh,9vh; */
             display: flex; 
             justify-content: center;
             flex-direction: row;
-            align-items: center;
+            /* align-items: center; */
             margin: 0 auto;
-            /* padding: 5rem 8rem; */
         }
         .main{
             width: 80%;
@@ -137,7 +134,6 @@
             flex-direction: column;
             justify-content: space-around;
             align-items: flex-end;
-
         }
         .header{
             position:absolute;
@@ -149,12 +145,11 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            /* align-self: center; */
+            gap: 2%;
         }
         .comment__card{
             margin: 2rem 0;
-            max-width: 31.67%;
-            /* align-self: center; */
+            max-width: 100%;
         }
         .comment__card--btm{
             margin-top: auto;
@@ -165,10 +160,11 @@
             margin-top: 0;
         }
         .rate{
+            /* max-width: 100%; */
             flex-direction: column;
-            
         }
         .rate__box{
+            max-width: 1000px;
             flex-direction: row;
         }
 }
